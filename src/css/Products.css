@@ -1,0 +1,154 @@
+.footer{
+    background-color: #1b1a1b;
+    padding-top:5%;
+    padding-left: 10%;
+    padding-right:10%;
+    padding-bottom: 5%;
+}
+.footer-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    column-gap: 2%;
+}
+.fc-h{
+    color: orange;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+.fc-b,.fc-b1{
+    color:white;
+    font-weight: lighter;
+    font-size: 1vw;
+}
+.fc-b{
+    transition: color 0.5s;
+}
+.fc-b:hover{
+    color: orange;
+}
+.fc-b1{
+    margin-bottom: 10%;
+}
+.newsletter{
+    margin-top:0px;
+    border-color: white;
+    border-width: 1px;
+    background-color: rgba(0,0,0,0);
+    padding-top: 1%;
+    height:15%;
+    padding-left: 2.5%;
+    font-size: 1vw;
+    color:white;
+    border-radius: 0px;
+}
+.newsletter::placeholder{
+    color: white;
+    border-radius: 0px;
+}
+.newsletter-button{
+    background-color: orange;
+    margin-top: 4%;
+    height: 18%;
+    color: white;
+    font-weight: bolder;
+    padding-left: 24%;
+    padding-right: 24%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: 1vw;
+    transition: border 0.5s;
+}
+.newsletter-button:hover{
+    border:1px solid white;
+}
+.footer-end{
+    margin-top: 7%;
+    border-top: 2px solid orange;
+    padding-top: 1.5%;
+    text-align: center;
+}
+.fe-txt{
+    color: white;
+    font-size: 1.1vw;
+}
+#info{
+display: flex;
+}
+#info>p{
+flex: 60%;
+}
+#info>img{
+display: none;
+flex: 40%;
+height: 100vh;
+}
+#list{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+background-color: #1b1a1b;
+}
+#list>div{
+padding: 2.5% 0%;
+color: white;
+font-weight: bolder;
+font-size: 1.1vw;
+width: 10%;
+}
+#list>div:hover{
+cursor: pointer;
+}
+#product-line{
+color: #1b1a1b;
+font-weight: bolder;
+font-size: 4vw;
+display: block;
+margin-left: 40%;
+margin-top: 7%;
+}
+body{
+margin: 0;
+overflow-x: hidden;
+font-family: sans-serif;
+}
+#first{
+
+height: 100vh;
+width: 100%;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-image: url("https://d3rh8m1rlgcp00.cloudfront.net/wp-content/uploads/2020/09/Product-Banner-1.jpg");
+
+}
+#content{
+
+color: white;
+}
+#products{
+
+display: inline-block;
+
+margin: 0% 45%;
+margin-top: 30vh;
+font-weight:900;
+font-size: 2vw;
+overflow: hidden;
+}
+#para{
+
+margin: 0% 20%;
+line-height: 1.5;
+font-size: 1.3vw;
+display: inline-block;
+overflow: hidden;
+
+
+}
+
+#p{
+
+padding-top: 25vh;
+padding-left: 5%;
+padding-right: 5%;
+}

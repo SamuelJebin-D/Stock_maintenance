@@ -1,0 +1,96 @@
+.card{
+    width: 100%;
+    height:450px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-left: 40px;
+    margin-top:15px;
+    background-color: #ffeeb0;
+    border-radius: 10px;
+    padding: 2%;
+    color: black;
+    position: relative;    
+    box-sizing: border-box;
+   
+}
+
+.inner-card-2{
+    width: 20%;
+       
+}
+
+#ibtn{
+    background-color: #4f4f51;
+    color: white;
+    width: 120px;
+    border: 0px;
+    height: 35px;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+    border-radius:8px ;
+    transition: 0.3s;
+
+}
+
+.card:hover{
+    transform: scale(1.005);
+    box-shadow: rgba(41, 41, 41, 0.2) 0px 8px 24px;
+}
+
+
+.card img{
+    object-fit: cover;
+    height: 50%;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+
+#ibtn:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color:black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.inner-card{
+    padding-top: 10px;
+    padding-left: 15px;
+    width: 100%;
+}
+
+.inner-card h2{
+    word-wrap: break-word;
+    font-size: 23px;
+    
+}
+
+
+
+.inner-card h6{
+   
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    
+   
+    
+    
+    
+}
+
+.inner-card p{
+    font-size: 10px;
+    width: 100%;
+    margin: 4px;
+    color: rgb(82, 82, 82);
+}
+
+
+
+    
+
+

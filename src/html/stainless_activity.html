@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stainless_activity.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>stainless_activity</title>
+</head>
+<body>
+    <div id="act_div1">
+        <div id="div1_div1" data-aos="fade-down" data-aos-duration="1000">
+            <h2>Stainless Academy</h2>
+        </div>
+        <div id="div1_div2" data-aos="fade-up" data-aos-duration="1000">
+            <p>While manufacturing world-class stainless steel products is our specialty, educating and enabling the society 
+                <span class="div2_disp">...</span>
+                <a class="div2_dispa"  onclick="expand()">>></a>
+                <span class="div2_ndisp">
+                    to adopt the ‘metal of the future’ is our responsibility.
+                    As India’s largest stainless steel producer, Jindal Stainless has laid out several initiatives to 
+                    advocate and popularize the usage and benefits of stainless steel for end-customers and fabricators.
+                    It’s only through the development of complete stainless steel ecosystem that we can 
+                    lead our country into a stainless future.
+                </span>
+                <a class="div2_ndispa"  onclick="expand()"><<</a>
+            </p>
+        </div>
+    </div>
+    <div id="act_div2">
+        <div id="div2_div1">
+            <img src="https://d3rh8m1rlgcp00.cloudfront.net/wp-content/uploads/2020/09/Fabricator-Training-Prog.jpg" alt="">
+            <div>
+                <a href="">
+                    <h2>Industrial &<br>Fabricator<br>Training<br>programmes</h2>
+                    <button>Explore</button>
+                </a>
+            </div>
+        </div>
+        <div id="div2_div2">
+            <img src="https://d3rh8m1rlgcp00.cloudfront.net/wp-content/uploads/2020/09/Stainless-Academy.jpg" alt="">
+            <div>
+                <a href="" >
+                    <h2 id="k">Showcase Vans</h2>
+                    <button>Explore</button>
+                </a>
+            </div>
+        </div>
+        <div id="div2_div3">
+            <img src="https://d3rh8m1rlgcp00.cloudfront.net/wp-content/uploads/2020/09/Stainless-Steel-Course.jpg" alt="">
+            <div>
+                <a href="">
+                    <h2 id="j">Stainless Steel<br>Courses</h2>
+                    <button>Explore</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+         AOS.init();
+    </script>
+    <script>
+        function expand(){
+            document.getElementsByClassName("div2_disp")[0].classList.toggle("hide");
+            document.getElementsByClassName("div2_dispa")[0].classList.toggle("hide");
+            document.getElementsByClassName("div2_ndisp")[0].classList.toggle("showme");
+            document.getElementsByClassName("div2_ndispa")[0].classList.toggle("showme");
+            document.getElementById("div1_div1").classList.toggle("reduce");
+            document.getElementById("div1_div2").classList.toggle("reduce");
+        }
+    </script>
+</body>
+</html>

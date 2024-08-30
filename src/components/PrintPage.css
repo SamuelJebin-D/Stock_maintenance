@@ -1,0 +1,229 @@
+.outerbill{
+    margin-top: 200px;
+    border:0.5px solid rgb(186, 186, 186);
+    position: relative;
+    margin-bottom: 50px;
+    min-height: 1100px;
+    
+
+}
+
+#printbtn{
+    position: absolute;
+    top:-100px;
+    right: 30px;
+    width: 110px;
+    color: white;
+    height:30px;
+    background-color: #4f4f51;
+    border-radius: 10px;
+    border: 0px;
+    transition: 0.3s;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+#printbtn:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+    color:black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: 0.3s;
+}
+
+.innerbill{
+    padding: 30px;
+}
+
+
+.company-details{
+    margin-left: 30px;
+    margin-top: 0px;
+    
+}
+
+.company-details h3, .to-detail h3{
+    margin: 10px 0px;
+    font-size: 15px;
+    color: rgb(92, 92, 92);
+}
+
+
+.company-details p{
+    margin: 5px 1px;
+}
+
+
+.to-detail{
+    margin-left: 70px;
+    margin-top: 0px;
+    
+    
+}
+
+.to-detail p{
+    margin: 5px 1px;
+    width: 100px;
+    word-break:break-all;
+}
+
+
+.bill-table table{
+    width: 95%;
+    border-collapse: collapse;
+    margin: 20px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    
+}
+
+
+.bill-table table tbody,thead{
+    border: 1px solid black;
+}
+
+.bill-table table .inner-row:nth-child(even){
+    background-color: rgba(196, 196, 196, 0.3);
+}
+
+
+.bill-table table th{
+    text-align: left;
+    background-color:rgb(180, 235, 255) ;
+    padding: 10px;
+    border-right:1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+
+.bill-table table .inner-row td{
+    border-right:1px solid black;   
+    padding: 10px;
+    font-size: 12px;
+}
+
+.bill-table table .outer-row td:nth-child(4){     
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+.bill-table table .outer-row td:nth-child(5){     
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+
+.bill-footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px;
+    font-size: 10px;
+    text-align: center;
+    background-color: rgb(213, 214, 214);
+}
+
+.footer-para{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 60px;
+    text-align: left;
+    
+    font-size: 10px;
+}
+
+.footer-para p{
+    margin: 5px 0px;
+}
+
+.footer-para p:nth-child(1){
+    font-weight: 600;
+}
+
+
+.detail-bill{
+    display: flex;
+}
+
+.bill-header{
+    display: flex;
+    background-color: rgb(18, 102, 204);
+    color: white;
+}
+
+.bill-header h1{
+    padding: 40px;
+    padding-top: 80px;
+    width: 67%;
+    margin-bottom: 50px;
+   
+}
+
+
+.bill-header .bill-header-inner{
+        
+    padding: 20px;
+
+}
+
+.bill-header-inner p{
+    margin: 10px 0px;
+}
+
+
+@media print {
+    body * {
+      visibility: hidden;
+    }
+    #section-to-print, #section-to-print * {
+      visibility: visible;
+    }
+    #section-to-print {
+      position: absolute;
+      left: 0;
+      top: 0;
+      margin-top: 0;
+      width: 100%;
+    }
+
+    #printbtn{
+        visibility: hidden;
+    }
+
+    table { page-break-after:auto;
+     }
+    tr    { page-break-inside:avoid; page-break-after:auto; }
+    td    { page-break-inside:avoid; page-break-after:auto }
+    thead { display: table-row-group; }
+
+  }
+
+
+
+  .bill-input{
+   
+
+    margin: auto;
+    margin-top: 100px;
+    width: fit-content;
+  }
+
+
+  .bill-input form input{
+    display: block;
+    margin: 10px 0px;
+    height: 28px;
+    width: 280px;
+    border-radius: 8px;
+    border: 0.1px solid black;
+    outline: 0;
+  }
+
+

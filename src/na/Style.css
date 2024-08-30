@@ -1,0 +1,244 @@
+* {
+  margin: 0 0;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Mark Pro Heavy", sans-serif;
+}
+.el-1 {
+  position: relative;
+  display: block;
+  background-color: pink;
+  /* text-align: center; */
+  padding: 400px;
+  background-image: url(https://d3rh8m1rlgcp00.cloudfront.net/wp-content/uploads/2022/03/Making-SS-Banner.jpg);
+  text-align: center;
+}
+.heading {
+  position: absolute;
+  color: white;
+  top: 40%;
+  left: 30%;
+  font-size: 42px;
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  -moz-animation: fadeIn 3s;
+  -o-animation: fadeIn 3s;
+  -ms-animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.el-2,
+.el-3,
+.el-4 {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 60px; */
+  padding-left: 9%;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  margin: 50px;
+  font-size: 20px;
+  /* font-family:   font-family: "Mark Pro Heavy", sans-serif; */
+}
+li:hover {
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #fea734;
+  text-decoration-thickness: 7px;
+  /* font-size: 30px; */
+}
+p {
+  margin-top: 50px;
+}
+.tex {
+  color: #fea734;
+  padding-bottom: 20px;
+  margin-top: 25px;
+}
+h4 {
+  font-size: 12px;
+  color: #8b8b8b;
+  padding-bottom: 10px;
+}
+.pt01 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  /* border: 1px solid black; */
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.info {
+  line-height: 25px;
+  margin-left: 150px;
+  /* margin-top: 150px; */
+}
+img {
+  height: 300px;
+  width: auto;
+}
+.info {
+  width: 55%;
+}
+#el02,
+#el03,
+#el04,
+#el05,
+#el06,
+#el08,
+#el09,
+#el10,
+#el11,
+#el12,
+#el14,
+#el15,
+#el16,
+#el17 {
+  display: none;
+}
+.el-3 {
+  background-color: #f8ebda;
+}
+.el-4 {
+  background-color: #fea734;
+  padding-bottom: 7-px;
+}
+.tex1 {
+  color: white;
+}
+.el-4 h4 {
+  color: #d5d5d5;
+}
+.el-4 h1 {
+  color: white;
+}
+/* footer */
+.footer {
+  background-color: #1b1a1b;
+  padding-top: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  column-gap: 2%;
+}
+.fc-h {
+  color: orange;
+  font-weight: 500;
+  font-size: 1.5vw;
+}
+.fc-b,
+.fc-b1 {
+  color: white;
+  font-weight: lighter;
+  font-size: 1vw;
+}
+.fc-b {
+  transition: color 0.5s;
+}
+.fc-b:hover {
+  color: orange;
+}
+.fc-b1 {
+  margin-bottom: 10%;
+}
+.newsletter {
+  margin-top: 0px;
+  border-color: white;
+  border-width: 1px;
+  background-color: rgba(0, 0, 0, 0);
+  padding-top: 1%;
+  height: 15%;
+  padding-left: 2.5%;
+  font-size: 1vw;
+  color: white;
+  border-radius: 0px;
+}
+.newsletter::placeholder {
+  color: white;
+  border-radius: 0px;
+}
+.newsletter-button {
+  background-color: orange;
+  margin-top: 4%;
+  height: 30%;
+  color: white;
+  font-weight: bolder;
+  padding-left: 24%;
+  padding-right: 24%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  font-size: 1vw;
+  transition: border 0.5s;
+}
+.newsletter-button:hover {
+  border: 1px solid white;
+}
+.footer-end {
+  margin-top: 7%;
+  border-top: 2px solid orange;
+  padding-top: 1.5%;
+  text-align: center;
+}
+.fe-txt {
+  color: white;
+  font-size: 1.1vw;
+}
